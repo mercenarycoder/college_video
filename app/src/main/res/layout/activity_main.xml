@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Video Utility Application"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:fontFamily="@font/sfpro_display_bold"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="222dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:baselineAligned="false">
+<Button
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/btn_round2"
+    android:textColor="#fff"
+    android:layout_marginTop="10dp"
+    android:text="Make Video"
+    android:id="@+id/uploader"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/assy"
+        android:textColor="#fff"
+        android:text="See Recorded Video"
+        android:id="@+id/reader"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/assy"
+        android:textColor="#fff"
+        android:text="Save Recorded Video"
+        android:id="@+id/saver"/>
+</LinearLayout>
+</RelativeLayout>
